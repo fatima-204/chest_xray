@@ -53,27 +53,23 @@ OpenCV
 Setup Instructions
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/pneumonia-detection.git
+
+git clone https://github.com/fatima-204/chest_xray.git
 cd pneumonia-detection
 Install dependencies:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Usage
 1. Training the Model
 To train the model on the dataset, run the following script:
 
-bash
-Copy code
+
 python train_model.py
 2. Prediction
 To make predictions on new chest X-ray images, use the following script:
 
-bash
-Copy code
+
 python predict.py --image <path_to_image>
 This will output whether the image is classified as Normal or Pneumonia.
 
